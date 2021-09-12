@@ -1,0 +1,2 @@
+Evtl. optimieren:
+  Output ginge noch schneller, wenn nicht mit Printf.
