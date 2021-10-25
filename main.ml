@@ -7,11 +7,6 @@ open Logdefs
 exception Parse_error_in_line of int
 
 
-(* ============================================ *)
-(* read the parser-definitions from files.      *)
-(* -------------------------------------------- *)
-(* the filenames are given as list of filenames *)
-(* ============================================ *)
 let readlog_from_channel input_channel =
 
   let lineslist = ref [] in
